@@ -1,0 +1,23 @@
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+      }
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .blog-title-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
